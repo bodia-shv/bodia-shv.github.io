@@ -1,0 +1,477 @@
+/* Index for ipad */
+/*body{
+	overflow-x: hidden;
+}*/
+
+@media screen and (max-width:768px) {
+
+.menu{
+	display: flex !important;
+}
+
+	.center__block{
+		width: 350px;
+		height: 400px;
+		justify-content: space-between;
+	}
+	.center__block__login{
+		width: 350px;
+		height: 400px;
+		justify-content: space-between;
+	}
+	.log__pass{
+		width: 310px;
+	}
+	.container__works h1{
+		font: 47px/55px 'SansusWebissimo';
+	}
+	.container__works hr{
+		width: 80px;
+		margin-top: 0;
+	}
+	
+
+
+	/* My works */
+	.container_slider{
+		justify-content: space-between;
+	}
+	.wrap_title{
+		width: 100%;
+		height: 275px;
+	}
+
+
+
+
+	.wrap_works{
+		min-height: 200px;
+	}
+	.container__works{
+		min-height: 220px;
+	}
+
+
+
+	.center_text{
+		width: 90%;
+	}
+	.center_text h1 {
+	font: 35px/41px 'SansusWebissimo';
+	}
+	.center_text a {
+		margin: 30px auto 0;
+	}
+	.center_text hr{
+		margin: 10px auto;
+	}
+
+	.wrap_slider{
+		width: 100%;
+	}
+	.main_slide{
+		height: 520px;
+	}
+	.before_slide,
+	.after_slide{
+		height: 200px;
+	}
+
+	.comments_about{
+		width: 35%;
+		text-align: center;
+	}
+
+	.form_container{
+		margin-top: 30px;
+	}
+	.wrap_form{
+		width: 350px;
+		height: 465px;
+	}
+
+	textarea{
+		width: 310px;
+	}
+
+	.some_text{
+		width: 37%;
+	}
+	.container_links{
+		width: 58%;
+	}
+
+	.container_quote{
+		width: 100%;
+		box-sizing: border-box;
+		padding: 0 20px;
+	}
+	.container_links ul li a{
+		font-size: 14px;
+	}
+
+
+	/* Blog */
+
+	.left_nav_side{
+		display: none;
+	}
+	.content_side{
+		box-sizing: border-box;
+		width: 100%;
+		padding: 0 20px 50px;
+	}
+	.container__works_blog{
+		min-height: 70px;
+	}
+	.footer{
+		min-height: 100px;
+	}
+
+	/* About Me */
+	.about_avatar{
+		width: 420px;
+		height: 470px;
+	}
+	.about_avatar img{
+		width: 420px;
+		height: 450px;
+	}
+	.wrap_info{
+
+	}
+	.wrap_about__avatar{
+		width: 100%;
+		overflow: hidden;
+	}
+	.wrap_about__avatar p{
+		width: 470px;
+	}
+	.wrap_about__skill{
+		width: 100%;
+		text-align: center;
+	}
+	.wrap_about__skill p{
+		width: 470px;
+		align-self: center;
+	}
+	.wrap_circle{
+		justify-content: center;
+	}
+	.wrap_contacts{
+		width: 350px;
+		height: 310px;
+	}
+	.about_cont_works{
+		min-height: 75px;
+	}
+
+
+
+
+	.some_text{
+		font: 14px/24px 'Roboto-Light';
+	}
+	.container_links ul li a{
+		font: 12px/17px 'Roboto-Medium';
+	}
+	.quote_footer{
+		font: 14px/24px 'Roboto-LightItalic';
+	}
+	.copiright p{
+		font: 14px/24px 'Roboto-Light';
+	}
+	.copiright{
+		position: relative;
+	}
+
+
+
+
+	.left_nav_side{
+		display: flex;
+		position: fixed;
+		background: #638741;
+		/*height: 100%;*/
+		width: 280px;
+		z-index: 1200;
+		/*left: -280px;*/
+		/*right: 0;*/
+		top:0;
+		bottom: 0;
+		transform: translate3d(-280px, 0, 0);
+		transition: transform 0.4s ease;
+	}
+	.active__left_nav_side{
+		transform: translate3d(0, 0, 0);
+	}
+	.left_nav_side ul{
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	.left_nav_side a{
+		color: #fff;
+		font: 16px/26px 'Roboto-Medium';
+		border:none;
+	}
+	.left_nav_side a:hover{
+	transform: scale(1.2);
+	}
+	.sidebar_btn{
+		width: 50px;
+		height: 70px;
+		border-radius: 50%;
+		background: #638741;
+		display: flex;
+		position: absolute;
+		align-self: center;
+		left: 250px;
+		z-index: 100;
+	}
+}
+
+/* For iPhone */
+@media screen and (max-width:479px){
+	.center__block,
+	.center__block__login{
+		width: 310px;
+		height: 380px;
+		margin: 60px auto 0
+	}
+	.button__container{
+		width: 100%;
+		height: 40px;
+		margin-top: 30px;
+		display: flex;
+		justify-content: center;
+	}
+	#enter__button{
+		position: relative;
+		right: 0;
+		top: 0;
+	}
+	.log__pass{
+		width: 265px;
+	}
+
+	/* My works */
+	.hamburger_btn{
+		width: 25px;
+		height: 30px;
+	}
+	.top__line .links{
+		width: 120px;
+		margin-left: 20px;
+	}
+	.links a{
+		width: 30px;
+		height:30px;
+	}
+	.container__avatar{
+		width: 135px;
+		height: 135px;
+	}
+	.container__avatar img{
+		width: 135px;
+		height: 150px;
+	}
+	.center__avatar h1{
+		font: 21px/28px 'Roboto-Medium';
+	}
+	.center__avatar hr{
+		width: 55px;
+	}
+	.center__avatar p{
+		font: 16px/24px 'Roboto-Light';
+	}
+	.arrow{
+		margin: 80px auto 20px;
+	}
+	.container__works{
+		min-height: 125px;
+	}
+	.wrap_works{
+		min-height: 85px;
+		background-size: contain;
+		background-position: 50% 10%;
+	}
+	.container__works h1{
+		font: 35px/42px 'SansusWebissimo';
+		margin: 0;
+	}
+	.container__works hr{
+		width: 55px;
+		margin: 10px auto;
+	}
+	.wrap_title{
+		height: 220px;
+	}
+	.center_text h1 {
+		font: 21px/28px 'SansusWebissimo';
+	}
+	.center_text hr{
+		width: 55px;
+	}
+	.center_text p{
+		font: 14px/24px 'Roboto-Medium';
+	}
+	.center_text a{
+		font: 14px/36px 'Roboto-Medium';
+	}
+	.container_slider{
+		min-height: 550px;
+	}
+	.main_slide{
+		height: 260px;
+	}
+	.before_slide, .after_slide{
+		height: 95px;
+	}
+	
+	.about_title{
+		background-position: 50%;
+	}
+	.title_center{
+		width: 90%;
+	}
+	.about_title h1{
+		font: 35px/42px 'SansusWebissimo';
+	}
+	.about_title hr{
+		width: 55px;
+		margin-top: 0;
+	}
+
+	.wrap_comments{
+		flex-wrap: wrap;
+	}
+	.comments_about{
+		width: 90%;
+		margin-top: 25px;
+	}
+	.comment{
+		min-height: 80px;
+		font:14px/24px 'Roboto-Italic';
+	}
+	.wrap_form{
+		width: 290px;
+		height: 415px;
+	}
+	.wrap_form h1{
+		font: 21px/27px 'SansusWebissimo';
+		margin-bottom: 5px;
+	}
+	.wrap_form hr{
+		width: 55px;
+		margin-top: 0;
+	}
+	textarea {
+		width: 265px;
+	}
+
+	.container_links ul li a{
+		font: 9px/14px 'Roboto-Medium';
+
+	}
+
+
+	.some_text{
+		width: 100%;
+		padding: 0 20px;
+		/*font: 14px/24px 'Roboto-Light';*/
+	}
+	.container_links{
+		padding: 0 20px;
+		width: 100%;
+	}
+	.container_links ul{
+		padding: 0;
+	}
+	.container_links ul{
+		justify-content: center;
+		margin: 10px 0 0;
+	}
+
+	.work__container{
+		min-height: 568px;
+	}
+	 /* About Me*/
+	 .wrap_about__avatar .title1 h1{
+	 	font: 35px/42px 'SansusWebissimo';
+	}
+	.wrap_about__avatar hr{
+	 	width: 55px;
+	 	margin-bottom: 15px;
+	}
+	.wrap_about__avatar h1{
+	 	font: 21px/28px 'SansusWebissimo';
+	}
+	.wrap_about__avatar p{
+	 	font: 14px/24px 'Roboto-Italic';
+	 	width: 100%;
+	 	padding: 0 20px;
+	 	box-sizing: border-box;
+	}
+	.title2 h1{
+	 	font: 21px/28px 'SansusWebissimo';	
+	}
+	.title2 hr{
+		width: 55px;
+	}
+	.wrap_about__skill p{
+	 	font: 14px/24px 'Roboto-Italic';
+	  	width: 100%;
+	 	padding: 0 20px;
+	 	box-sizing: border-box;
+	}
+
+
+	.about_cont_works{
+		min-height: 40px;
+	}
+	.about_avatar{
+		width: 320px;
+		height: 330px;
+		overflow: hidden;
+	}
+	.about_avatar img{
+		width: 320px;
+		height: 340px;
+	}
+	.wrap_circle{
+		flex-wrap: wrap;
+	}
+	.circle{
+		margin: 10px;
+	}
+	.circle p{
+		font: 12px/14px 'Roboto-Medium';
+		padding: 0;
+	}
+
+	.wrap_contacts{
+		width: 320px;
+		min-height: 285px;
+		align-self: flex-start;
+	}
+	.wrap_contacts hr{
+		height: 55px;
+	}
+
+	.container__works_blog{
+		min-height: 50px;
+	}
+
+	.navigation a{
+		font: 33px/55px 'SansusWebissimo';
+		height: 80px;
+	}
+	
+
+
+	
+
+}
