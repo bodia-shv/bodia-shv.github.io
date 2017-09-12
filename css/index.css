@@ -6,7 +6,7 @@
 	top: 0;
 	width: 100%;
 	height: 100%;
-	background: green;
+	background: #000;
 	background-position: cover;
 	z-index: 2000;
 	transition: 1s all;
@@ -17,9 +17,9 @@
 .loader{
 	width: 75px;
 	height: 75px;
-	border: 10px solid #333;
+	border: 10px solid #ececec;
 	border-radius: 50%;
-	border-top-color: green;
+	border-top-color: #000;
 	position: absolute;
 	left: 50%;
 	top: 50%;
@@ -119,15 +119,20 @@ body{
 	margin-top: 0;
 }
 .av-box{
-	margin: 0px auto;
+	display: flex;
+	align-self: center;
+	justify-content: center;
 	width: 150px;
 	height: 150px;
 	border-radius: 50% 50%;
 	overflow: hidden;
+
 }
 .avatar{
-	width: 150px;
-	height: 180px;
+	width: 230px;
+	height: 160px;
+	display: flex;
+	align-self: center;
 }
 .links{
 	display: flex;
@@ -186,13 +191,13 @@ body{
 	display: block;
 	width: 100%;
 	flex-basis: 100%;
-	background-color: #639155;
+	background-color: #868a85;
 	text-decoration: none;
 	color: #fff;
 	font: 16px/34px 'Roboto-Medium';
 }
 .bottom__navigation a:hover{
-	background-color: #4e8839;
+	background-color: #444;
 }
 .left_radius{
 	border-bottom-left-radius: 5px;

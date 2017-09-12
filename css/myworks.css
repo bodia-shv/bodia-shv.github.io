@@ -46,7 +46,7 @@ body{
 	/*background: #f4f5f0;*/
 }
 .work__container{
-	background: url(../img/bg1.jpg) no-repeat;
+	background: url(../img/bg.jpg) no-repeat;
 	background-attachment: fixed;
 	width: 100%;
 	min-height: 650px;
@@ -353,7 +353,7 @@ nav .btn__nav {
 	justify-content: center;
 	background: transparent url(../img/icons/REVIEWS.png) no-repeat;
 	background-position: 50% 20%;
-	background-size: contain;
+	/*background-size: contain;*/
 	overflow: hidden;
 }
 .about_title h1 {
