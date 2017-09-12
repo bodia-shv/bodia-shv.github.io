@@ -6,7 +6,7 @@
 	top: 0;
 	width: 100%;
 	height: 100%;
-	background: green;
+	background: #000;
 	background-position: cover;
 	z-index: 2000;
 	transition: 1s all;
@@ -17,9 +17,9 @@
 .loader{
 	width: 75px;
 	height: 75px;
-	border: 10px solid #333;
+	border: 10px solid #ececec;
 	border-radius: 50%;
-	border-top-color: green;
+	border-top-color: #000;
 	position: absolute;
 	left: 50%;
 	top: 50%;
@@ -127,8 +127,8 @@ nav .btn__nav {
 	left: 0;
 	right: 0;
 	bottom: 0;
-	background: #638741;
-	opacity: 0.9;
+	background: rgba(0, 0, 0, .9);	
+	/*opacity: 0.9;*/
 	z-index: 100;
 	margin: 0;
 	padding: 0;
@@ -157,10 +157,12 @@ nav .btn__nav {
 	height: 150px;
 	border-radius: 50% 50%;
 	overflow: hidden;
+	display: flex;
+	justify-content: center;
 }
 .container__avatar img{
-	width: 150px;
-	height: 180px;
+	width: 230px;
+	height: 160px;
 }
 .center__avatar h1{
 	font: 35px/41px 'Roboto-Medium';
@@ -243,7 +245,7 @@ nav .btn__nav {
 	right: 0;
 }
 .title2 h1{
-	font: 35px/41px 'SansusWebissimo';
+	font: 63px/56px 'SansusWebissimo';
 	color: #5a6359;
 }
 .title2 hr{
@@ -260,6 +262,7 @@ nav .btn__nav {
 	padding-bottom: 50px;
 	width: 100%;
 	flex-wrap: wrap;
+	background: #dedede;
 }
  .wrap_about__avatar{
 	width: 50%;
@@ -268,15 +271,18 @@ nav .btn__nav {
 	flex-direction: column;
 	align-items: center;
 	overflow: hidden;
+	/*background: #dedede;*/
 }
 .about_avatar{
 	width: 370px;
-	height: 350px;
+	height: 330px;
 	overflow: hidden;
+	display: flex;
+	justify-content: center;
 }
 .about_avatar img{
-	width: 370px;
-	height: 410px;
+	width: 520px;
+	height: 350px;
 }
 .wrap_about__avatar .title1 h1{
 	font: 63px/56px 'SansusWebissimo';
@@ -308,6 +314,7 @@ nav .btn__nav {
 	padding-left: 10px;
 	display: flex;
 	flex-direction: column;
+	/*background: #dedede;*/
 }
 .wrap_about__skill p{
 	font: 16px/22px 'Roboto-Italic';
@@ -330,7 +337,7 @@ nav .btn__nav {
 	border-radius: 50%;
 	display: flex;
 	justify-content: center;
-	border: 20px solid #638741;
+	border: 20px solid #444;
 	box-sizing: border-box;
 	margin-right:20px;
 	margin-top: 20px;
@@ -339,7 +346,7 @@ nav .btn__nav {
 	text-align: center;
 	align-self: center;
 	font: 12px/14px 'Roboto-Medium';
-	color: #638741;
+	color: #444;
 	margin: 0;
 } 
 
@@ -415,19 +422,31 @@ nav .btn__nav {
 
 
 .footer{
+/* 	width: 100%;
+min-height: 270px;
+display: flex;
+justify-content: space-around;
+background: rgba(0, 0, 0, .5);
+box-sizing: border-box;
+flex-wrap: wrap;
+padding-top: 15px;
+position: absolute;
+bottom: 0;
+left: 0;
+right: 0;
+ */
+
 	width: 100%;
-	min-height: 270px;
+	min-height: 200px;
 	display: flex;
 	justify-content: space-around;
-	background: rgba(0, 0, 0, .5);
+	background:  url(../img/footer-bg.jpg) repeat-x;
+	background-attachment: fixed;
+	background-size: cover;
 	box-sizing: border-box;
 	flex-wrap: wrap;
 	padding-top: 15px;
-	position: absolute;
-	bottom: 0;
-	left: 0;
-	right: 0;
-
+	position: relative;
 }
 .some_text{
 	width: 27%;
@@ -440,6 +459,7 @@ nav .btn__nav {
 	width: 40%;
 	display: flex;
 	flex-direction: column;
+	align-items: center;
 }
 .container_links ul{
 	display: flex;
@@ -452,6 +472,9 @@ nav .btn__nav {
 .container_links ul li a{
 	font: 15px/24px 'Roboto-Medium';
 	color: #fff;
+}
+.container_links ul li a:hover{
+	text-shadow: 0px 1px 3px #fff;
 }
 .link_icons li{
 	opacity: 0.7;
@@ -481,11 +504,11 @@ nav .btn__nav {
 .copiright{
 	width: 100%;
 	height: 60px;
-	background: #7b9b5e;
-	opacity: 0.7;
-	position: absolute;
+	background: #000;
+	opacity: 0.3;
+/*	position: absolute;
 	bottom: 0;
-}
+*/}
 .copiright p{
 	font: 16px/24px 'Roboto-Light';
 	color: #fff;
