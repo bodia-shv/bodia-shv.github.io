@@ -191,7 +191,7 @@
 	.left_nav_side{
 		display: flex;
 		position: fixed;
-		background: #638741;
+		background: #868a85;
 		/*height: 100%;*/
 		width: 280px;
 		z-index: 1200;
@@ -224,7 +224,7 @@
 		width: 50px;
 		height: 70px;
 		border-radius: 50%;
-		background: #638741;
+		background: #868a85;
 		display: flex;
 		position: absolute;
 		align-self: center;

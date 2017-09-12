@@ -6,7 +6,7 @@
 	top: 0;
 	width: 100%;
 	height: 100%;
-	background: green;
+	background: #000;
 	background-position: cover;
 	z-index: 2000;
 	transition: 1s all;
@@ -17,9 +17,9 @@
 .loader{
 	width: 75px;
 	height: 75px;
-	border: 10px solid #333;
+	border: 10px solid #ececec;
 	border-radius: 50%;
-	border-top-color: green;
+	border-top-color: #000;
 	position: absolute;
 	left: 50%;
 	top: 50%;
@@ -43,7 +43,7 @@ a{
 	display: block;
 }
 body{
-	/*background: #f4f5f0;*/
+	background: #dedede;
 }
 .work__container{
 	background: url(../img/bg.jpg) no-repeat;
@@ -127,8 +127,8 @@ nav .btn__nav {
 	left: 0;
 	right: 0;
 	bottom: 0;
-	background: #638741;
-	opacity: 0.9;
+	background: rgba(0, 0, 0, .9);	
+	/*opacity: 0.9;*/
 	z-index: 100;
 	margin: 0;
 	padding: 0;
@@ -157,10 +157,12 @@ nav .btn__nav {
 	height: 150px;
 	border-radius: 50% 50%;
 	overflow: hidden;
+	display: flex;
+	justify-content: center;
 }
 .container__avatar img{
-	width: 150px;
-	height: 180px;
+	width: 230px;
+	height: 160px;
 }
 .center__avatar h1{
 	font: 63px/56px 'SansusWebissimo';
@@ -280,8 +282,8 @@ nav .btn__nav {
 	padding: 10px 20px;
 }
 a.active{
-	color: #638741;
-	border-right: 3px solid #638741;
+	color: #444;
+	border-right: 3px solid #444;
 	box-sizing: border-box;
 }
 .sidebar_btn{
@@ -317,10 +319,12 @@ a.active{
 
 .footer{
 	width: 100%;
-	min-height: 270px;
+	/*min-height: 200px;*/
 	display: flex;
 	justify-content: space-around;
-	background: rgba(0, 0, 0, .5);
+	background:  url(../img/footer-bg.jpg) repeat-x;
+	background-attachment: fixed;
+	background-size: cover;
 	box-sizing: border-box;
 	flex-wrap: wrap;
 	padding-top: 15px;
@@ -338,18 +342,25 @@ a.active{
 	width: 40%;
 	display: flex;
 	flex-direction: column;
+	align-items: center;
 }
 .container_links ul{
 	display: flex;
-	padding-left: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
 .container_links ul li{
 	margin-right: 20px;
 	align-self: center;
+
 }
 .container_links ul li a{
 	font: 15px/24px 'Roboto-Medium';
 	color: #fff;
+
+}
+.container_links ul li a:hover{
+	text-shadow: 0px 1px 3px #fff;
 }
 .link_icons li{
 	opacity: 0.7;
@@ -379,11 +390,11 @@ a.active{
 .copiright{
 	width: 100%;
 	height: 60px;
-	background: #7b9b5e;
-	opacity: 0.7;
-	position: absolute;
+	background: #000;
+	opacity: 0.3;
+/*	position: absolute;
 	bottom: 0;
-}
+*/}
 .copiright p{
 	font: 16px/24px 'Roboto-Light';
 	color: #fff;
