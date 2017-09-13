@@ -487,19 +487,21 @@ textarea {
 
 
 }
-.button_container a {
+.button_container input {
 	display: block;
+	outline: none;
 	flex-basis: 50%;
 	box-sizing: border-box;
 	background-color: #868a85;
 	text-decoration: none;
 	color: #fff;
+	border: none;
 	font: 16px/34px 'Roboto-Medium';
 }
 .button_container .right_border {
 	border-right: 1px solid rgba(255, 255, 255, 0.5);
 }
-.button_container a:hover{
+.button_container input:hover{
 	background-color: #444;
 }
 .left_radius{

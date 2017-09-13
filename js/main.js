@@ -51,6 +51,14 @@ $(document).ready(function () {
         $(this).text('');
     })
 
+/* Reset button */
+
+    // $('.reset_form').on('click', function (e) {
+    //     e.preventDefault();
+    //     $('log__pass').text('');
+    //     $('textarea').text('');
+    // })
+
 /* Menu fixed (blog) */
     /*$(window).scroll(function() {
     var
