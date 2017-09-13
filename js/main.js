@@ -11,6 +11,9 @@ $(document).ready(function () {
     $('.container_layer').backgroundMove({
      movementStrength:'100'
 });
+/* Scroll animation (about me) */
+    
+
 
     
 /* Index entered anim */
@@ -41,7 +44,7 @@ $(document).ready(function () {
 
 
 /* Menu fixed (blog) */
-    $(window).scroll(function() {
+    /*$(window).scroll(function() {
     var
         wScroll = $(window).scrollTop(),
         menu = $('.static .menu'),
@@ -67,7 +70,8 @@ $(document).ready(function () {
         menu.show();
     }
 
-});
+});*/
+
 
 
 

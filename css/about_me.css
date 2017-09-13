@@ -411,13 +411,15 @@ svg:nth-child(2) path {
             stroke-width: 30;
             stroke-dasharray: 1000;
             stroke: #cecece;
-            animation: load 5s;
+            /*animation: load 7s;*/
 }
 svg path{
 	stroke-width:27;
 	stroke-dasharray: 1000;
 }
-
+.green {
+	display: none;
+}
 
 
 
