@@ -43,6 +43,14 @@ $(document).ready(function () {
     })
 
 
+/* Delete value onfocus (input) */
+    $('.log__pass').on('focus', function () {
+        $(this).removeAttr('value');
+    })
+    $('textarea').on('focus', function () {
+        $(this).text('');
+    })
+
 /* Menu fixed (blog) */
     /*$(window).scroll(function() {
     var
