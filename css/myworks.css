@@ -248,6 +248,8 @@ nav .btn__nav {
 	position: absolute;
 	background-size: contain;
 	bottom: 0;
+	left: 0;
+	right: 0;
 	overflow: hidden;
 }
 
