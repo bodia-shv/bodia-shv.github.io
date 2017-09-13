@@ -323,6 +323,7 @@ nav .btn__nav {
 	padding-right: 10px;
 }
 .wrap_about__skill h2{
+	padding-top: 25px;
 	font: 28px/32px 'Roboto-Medium';
 	color: #5a6359;
 }
@@ -330,6 +331,7 @@ nav .btn__nav {
 	width: 100%;
 	display: flex;
 	flex-wrap: wrap;
+	padding-left: 0;
 }
 .circle{
 	width: 110px;
@@ -349,6 +351,97 @@ nav .btn__nav {
 	color: #444;
 	margin: 0;
 } 
+
+
+
+/* SVG circle percent */
+
+
+
+
+
+
+
+
+
+@keyframes load{0%{stroke-dashoffset:0}}
+.progress {
+    position: relative;
+    margin: 0;
+    justify-content: flex-start;
+}
+.progress li {
+        display: inline-flex;
+        position: relative;
+        text-align: center;
+        align-self: center;
+        color: #444;
+        font-family: Lato;
+        font-weight:100;
+}
+.progress li:before {
+            content: attr(data-name);
+            position: absolute;
+            width: 100%;
+            bottom: -1rem;
+            font-weight:400;
+}
+.progress li:after {
+            content: attr(data-percent);
+            position: absolute;
+            width: 100%;
+            top: 3.2rem;
+            left: 0;
+            font-size: 1.5rem;
+            text-align: center;
+}
+svg {
+        width: 110px;
+        height: 110px;
+        padding: 10px;
+}
+svg:nth-child(2) {
+            position: absolute;
+            left: 0;
+            top: 0;
+            transform: rotate(-90deg);
+} 
+svg:nth-child(2) path {
+            fill: none;
+            stroke-width: 30;
+            stroke-dasharray: 1000;
+            stroke: #cecece;
+            animation: load 5s;
+}
+svg path{
+	stroke-width:27;
+	stroke-dasharray: 1000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
