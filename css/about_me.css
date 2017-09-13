@@ -378,6 +378,7 @@ nav .btn__nav {
         color: #444;
         font-family: Lato;
         font-weight:100;
+        margin: 10px;
 }
 .progress li:before {
             content: attr(data-name);
@@ -417,9 +418,7 @@ svg path{
 	stroke-width:27;
 	stroke-dasharray: 1000;
 }
-.green {
-	display: none;
-}
+
 
 
 
