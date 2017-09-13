@@ -316,6 +316,7 @@ nav .btn__nav {
 	width: 50%;
 	display: flex;
 	flex-wrap: wrap;
+	overflow: hidden;
 }
 
 .main_slide{
