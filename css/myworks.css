@@ -320,23 +320,65 @@ nav .btn__nav {
 
 .main_slide{
 	width: 100%;
-	background: #333;
+	background: black;
 	height: 65%;
 }
 
 .after_slide {
 	width: 50%;
-	background: #444;
+	background: black;
 	height: 35%;
 
 }
 .before_slide {
 	width: 50%;
 	height: 35%;
-	background: #555;
+	background: black;
 }
 
+.container_sl_img{
+	position: relative;
+}
+.container_sl_img img{
+	opacity: 1;
+	display: flex;
+	width: 100%;
+	height: 100%;
+	transition: .5s ease;
+	backface-visibility: hidden;
+}
+.middle{
+	width: 100%;
+	justify-content: center;
+	display: flex;
+	transition: .5s ease;
+	opacity: 0;
+	position: absolute;
+	align-content: center;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+.container_sl_img:hover img {
+  opacity: 0.3;
+}
 
+.container_sl_img:hover .middle {
+  opacity: 1;
+}
+
+.sl_link {
+  background-color: #868a85;
+  display: flex;
+  color: white;
+  font-size: 16px;
+  padding: 10px 20px;
+  border-radius: 30px;
+  margin-left: 10px;
+}
+.sl_link:hover{
+	background: #444;
+}
 
 .section_about {
 	background: #dedede;/* url(../img/form_bg1.jpg) no-repeat; */
@@ -487,7 +529,7 @@ textarea {
 
 
 }
-.button_container input {
+.button_container input{
 	display: block;
 	outline: none;
 	flex-basis: 50%;
